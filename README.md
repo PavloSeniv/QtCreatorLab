@@ -10,10 +10,6 @@ Task Qt Creator
 
 https://github.com/PavloSeniv/QtCreatorLab
 
-## Screenshots
-
-![app_photo]
-
 ## Run Locally
 
 Clone the project
