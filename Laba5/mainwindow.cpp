@@ -1,5 +1,7 @@
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
+#include "square.h"
+#include "pif.h"
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
@@ -13,3 +15,27 @@ MainWindow::~MainWindow()
     delete ui;
 }
 
+void MainWindow::setLabel(QString value)
+{
+    this->ui->resultLbl->setText("Результат: " + value);
+}
+
+void MainWindow::on_pushButton_clicked()
+{
+    this->hide();
+    square sq;
+    sq.mainWin = this;
+    sq.setModal(true);
+    sq.exec();
+
+}
+
+void MainWindow::on_pushButton_2_clicked()
+{
+    this->hide();
+    pif pif;
+    pif.mainWin = this;
+    pif.setModal(true);
+    pif.exec();
+
+}
