@@ -1,0 +1,16 @@
+<RCC>
+    <qresource prefix="/">
+        <file>movie_files/description_neis.txt</file>
+        <file>movie_files/description_gucci.txt</file>
+        <file>movie_files/description_ghost_busters.txt</file>
+        <file>movie_files/description_vichi.txt</file>
+        <file>movie_files/reservation_1.txt</file>
+        <file>movie_files/reservation_2.txt</file>
+        <file>movie_files/reservation_3.txt</file>
+        <file>movie_files/reservation_4.txt</file>
+        <file>movie_files/sold_1.txt</file>
+        <file>movie_files/sold_2.txt</file>
+        <file>movie_files/sold_3.txt</file>
+        <file>movie_files/sold_4.txt</file>
+    </qresource>
+</RCC>

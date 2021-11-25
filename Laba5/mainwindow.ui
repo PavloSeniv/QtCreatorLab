@@ -33,7 +33,7 @@
 color:rgb(0, 0, 0);</string>
     </property>
     <property name="text">
-     <string>Квадрат</string>
+     <string>Прямокутник</string>
     </property>
    </widget>
    <widget class="QPushButton" name="pushButton_2">
@@ -79,7 +79,7 @@ color:rgb(0, 0, 0);</string>
      </font>
     </property>
     <property name="text">
-     <string>Результат:</string>
+     <string/>
     </property>
    </widget>
   </widget>

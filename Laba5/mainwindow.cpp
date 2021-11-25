@@ -1,7 +1,7 @@
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
-#include "square.h"
-#include "pif.h"
+#include "area.h"
+#include "pifagor.h"
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
