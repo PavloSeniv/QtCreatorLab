@@ -37,8 +37,8 @@
      <widget class="QLabel" name="label_2">
       <property name="geometry">
        <rect>
-        <x>40</x>
-        <y>-80</y>
+        <x>20</x>
+        <y>-60</y>
         <width>1024</width>
         <height>682</height>
        </rect>
@@ -56,23 +56,25 @@
      <widget class="QPushButton" name="small_hall">
       <property name="geometry">
        <rect>
-        <x>340</x>
-        <y>0</y>
-        <width>431</width>
-        <height>181</height>
+        <x>350</x>
+        <y>370</y>
+        <width>351</width>
+        <height>71</height>
        </rect>
       </property>
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
       <property name="styleSheet">
-       <string notr="true">background-color:rgb(255, 255, 255);
-color: rgb(255, 0, 0);
-border: none;
-font: 26pt &quot;Cambria&quot;;
-
-
+       <string notr="true">background-color: rgba(255, 0, 0, 0);
+color: rgb(0, 251, 255);
+border-radius: 10px;
+font: 36pt &quot;Cambria&quot;;
+PushButton.setFlat(True);
 </string>
       </property>
       <property name="text">
-       <string>Перегляд</string>
+       <string>До сеансу</string>
       </property>
      </widget>
     </widget>
