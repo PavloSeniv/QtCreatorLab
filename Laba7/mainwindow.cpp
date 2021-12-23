@@ -36,13 +36,14 @@ void MainWindow::on_pushButton_clicked()
     QTextStream out(stdout);
 
 
-    QString filename = "E:\StudyUniversaty\Course4\Semestry1\Qt-creator\QtCreatorLab\Laba7\list_tabul.txt";
+    QString filename = "E:/StudyUniversaty/Course4/Semestry1/Qt-creator/QtCreatorLab/Laba7/list_tabul.txt";
     QFile file(filename);
 
     if (file.open(QIODevice::WriteOnly)) {
         QTextStream out(&file);
 
         double firstStep = ui->doubleSpinBox_firstStep->value();
+
         double lastStep = ui->doubleSpinBox_lastStep->value();
         double step = ui->doubleSpinBox_step->value();
 
@@ -55,13 +56,15 @@ void MainWindow::on_pushButton_clicked()
         }
 
         for(double x = firstStep; x <= lastStep; x += step) {
-            out << cos(x) << endl;
+            out << sin(x) << endl;
         }
 
         QMessageBox msgWarning;
+
         msgWarning.setText("Info!\nТабуляцію записано у файл!.");
         msgWarning.setIcon(QMessageBox::Information);
         msgWarning.setWindowTitle("OK");
+
         msgWarning.exec();
 
     }
@@ -74,6 +77,7 @@ void MainWindow::on_pushButton_clicked()
     }
 
     file.close();
+
     ui->pushButton->setEnabled(false);
     ui->doubleSpinBox_firstStep->setEnabled(false);
     ui->doubleSpinBox_lastStep->setEnabled(false);

@@ -30,7 +30,7 @@ table::table(QWidget *parent) :
     ui->tableWidget->setColumnCount(1);
 
     QStringList headers;
-    headers.append("tg(x)");
+    headers.append("sin(x)");
 
     ui->tableWidget->setHorizontalHeaderLabels(headers);
     ui->tableWidget->horizontalHeader()->setStretchLastSection(true);

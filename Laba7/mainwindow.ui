@@ -49,7 +49,7 @@ border: 1px solid #e5c182;
 border-radius:5px</string>
     </property>
     <property name="text">
-     <string>Функція tg(x)</string>
+     <string>Функція sin(x)</string>
     </property>
     <property name="alignment">
      <set>Qt::AlignCenter</set>
@@ -278,7 +278,7 @@ border: 1px solid #e5c182;
 border-radius:5px</string>
     </property>
     <property name="text">
-     <string>Запис у файл</string>
+     <string>Занесення даних</string>
     </property>
    </widget>
    <widget class="QPushButton" name="pushButton_2">
